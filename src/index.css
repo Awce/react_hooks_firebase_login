@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav-button{
+  text-decoration: none;
+  color:white;
+  background:linear-gradient(to right, orange, red);
+  padding:5px 10px;
+}
+
+.nav-button:hover{
+  background:linear-gradient(to left, orange, red);
+}
+
+.active{
+  background:linear-gradient(to top, red, blue);
+}
+
+.active:hover{
+  background:linear-gradient(to top, red, blue);
+}
